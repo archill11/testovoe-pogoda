@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Погода и курс валют</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+  <div class="wrapper">
+
+
+    <div class="weatherAndRefreshBlock">
+      <div class="weatherBlock">
+        <div class="weatherBlock__row">
+          <div class="weatherAndRefreshBlock__сity">Москва</div>
+          <div class="weatherAndRefreshBlock__date">03.09</div>
+        </div>
+        <div class="weatherBlock__row weatherBlock__row__temperature">
+          <span class="weatherAndRefreshBlock__temperature">Температура</span>
+          <span class="weatherAndRefreshBlock__temperature-val">15°</span>
+        </div>
+        <div class="weatherBlock__row weatherBlock__row__feels">
+          <span class="weatherAndRefreshBlock__temperature_feels">Ощущается как</span>
+          <span class="weatherAndRefreshBlock__temperature_feels-val">13°</span>
+        </div>
+        <div class="weatherBlock__row ">
+          <span class="weatherAndRefreshBlock__description">Пасмурно, небольшой дождь</span>
+        </div>
+      </div>
+
+      <div class="RefreshBlock">
+        <img src="./arrows.svg" alt="arrows-refresh">
+      </div>
+    </div>
+
+
+    <div class="ExchangeBlock">
+      <div class="ExchangeBlock__column ExchangeBlock__rusdRub">
+        <span class="ExchangeBlock__price">1 USD = 30,94 RUB</span>
+        <span class="ExchangeBlock__title">Долар США</span>
+      </div>
+
+      <div class="ExchangeBlock__column ExchangeBlock__eurRub">
+        <span class="ExchangeBlock__price">1 EUR = 26,83 RUB</span>
+        <span class="ExchangeBlock__title">Евро</span>
+      </div>
+
+      <div class="ExchangeBlock__column ExchangeBlock__sekRub">
+        <span class="ExchangeBlock__price">1 SEK = 29,59 RUB</span>
+        <span class="ExchangeBlock__title">Шведская крона</span>
+      </div>
+
+      <div class="ExchangeBlock__column ExchangeBlock__jpyRub">
+        <span class="ExchangeBlock__price">1 JPY = 23,15 RUB</span>
+        <span class="ExchangeBlock__title">Японская иена</span>
+      </div>
+
+      <div class="ExchangeBlock__column ExchangeBlock__cadRub">
+        <span class="ExchangeBlock__price">1 CAD = 19,32 RUB</span>
+        <span class="ExchangeBlock__title">Канадский доллар</span>
+      </div>
+    </div>
+
+
+  </div>
+
+</body>
+</html>
