@@ -80,7 +80,7 @@ function addEventListenerOnRefreshButton() {
  */
 function printСurrency(currency, data) {
 
-  const currency = currency.toLowerCase(); 
+  currency = currency.toLowerCase(); 
   const currencyUpperCase = currency.toUpperCase();
 
   const Price = data.Valute[currencyUpperCase].Value.toFixed(2);
